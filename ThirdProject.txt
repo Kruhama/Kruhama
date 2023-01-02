@@ -1,0 +1,8 @@
+simple Jscript
+var get = context.getVariable("request.queryparam.get");
+context.setVariable("MessageWight":"1");
+if (verb=="POST"){
+     
+	 Context.setVariable("MessageWight":"2");
+
+}
